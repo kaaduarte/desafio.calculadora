@@ -22,6 +22,9 @@ function multiplicar(a,b){
 function dividir(a,b){
     return a/b
 }
+botaoDividir.addEventListener("click", async ()=>{
+    resultado.textContent = "olá"
+})
 
 botaoSomar.addEventListener("click", async () => {
     const calculo = parseInt(inputCalculo.value);
