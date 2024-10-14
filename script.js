@@ -1,6 +1,5 @@
-let calcularNumeros;
-let cálculo = 0;
+const
 
 function somar {
-    
+
 }
