@@ -4,6 +4,22 @@ const botaoMultiplicar = document.getElementById("multiplicar");
 const botaoDividir = document.getElementById("dividir");
 const igual = document.getElementById("igual");
 
-function somar {
+const inputNumero = document.getElementById("calculo");
+const resultado = document.getElementById("resultado");
 
+function somar(a,b) {
+return a+b
 }
+
+function subtrair(a,b){
+    return a-b
+}
+
+function multiplicar(a,b){
+    return a*b
+}
+
+function dividir(a,b){
+    return a/b
+}
+
