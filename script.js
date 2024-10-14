@@ -23,3 +23,7 @@ function dividir(a,b){
     return a/b
 }
 
+botaoSomar.addEventListener("click", async () => {
+    const calculo = parseInt(inputCalculo.value);
+    resultado.textContent = "insira o outro valor a ser somado"
+})
