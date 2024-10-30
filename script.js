@@ -24,9 +24,38 @@ function dividir(a,b){
 }
 botaoDividir.addEventListener("click", async ()=>{
     resultado.textContent = "olá"
-})
+
+    botaoIgual.addEventListener("click", async () =>) {
+        const resultado = parseInt(inputCalculo.value);
+        resultado.textContent = "o resultado foi"
+    })
+
 
 botaoSomar.addEventListener("click", async () => {
     const calculo = parseInt(inputCalculo.value);
     resultado.textContent = calculo
-})
+
+    botaoIgual.addEventListener("click", async () =>) {
+        const resultado = parseInt(inputCalculo.value);
+        resultado.textContent = "o resultado foi"
+    })
+
+
+botaoSubtrair.addEventListener("click", async () => {
+    const calculo = parseInt(inputCalculo.value);
+    resultado.textContent = "coloque o segundo valor a ser subtraído"
+
+    botaoIgual.addEventListener("click", async () =>) {
+        const resultado = parseInt(inputCalculo.value);
+        resultado.textContent = "o resultado foi"
+    })
+
+
+botaoMultiplicar.addEventListener("click", async () => {
+    const calculo = parseInt(inputCalculo.value);
+    resultado.textContent = "coloque o segundo valor a ser multiplicado"
+
+    botaoIgual.addEventListener("click", async () =>) {
+        const resultado = parseInt(inputCalculo.value);
+        resultado.textContent = "o resultado foi"
+    })
